@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://example.com/schema/incorrect.json",
+  "title": "IIncorrect",
+  "type": "object",
+  "properties": {
+    "foo": {
+      "$ref": "./external-all-of.json"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://example.com/schema/bug.json",
+  "title": "ICorrect",
+  "type": "object",
+  "properties": {
+    "foo": {
+      "$ref": "./external-object.json"
+    }
+  },
+  "additionalProperties": false
+}
